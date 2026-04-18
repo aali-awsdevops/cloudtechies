@@ -1,0 +1,8 @@
+name: cloudtechies
+on: workflow_dispatch
+jobs:
+    cloneandbuild:
+        runs-on: ubuntu-latest
+        steps:
+            - name: codecheckout
+              uses: actions/checkout@v6
